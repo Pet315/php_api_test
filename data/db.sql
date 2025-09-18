@@ -8,5 +8,5 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 INSERT INTO users (name, email) VALUES
-('Maria Sun', 'ms@gmail.com'),
-('George Kane', 'gk@gmail.com');
+('Maria Sun', 'ms@mail.com'),
+('George Kane', 'gk@mail.com');

@@ -17,7 +17,6 @@ class Storage {
                 ]);
                 $this->initMysql();
             } catch (Exception $e) {
-                // fallback to json
                 $this->useMysql = false;
             }
         }
