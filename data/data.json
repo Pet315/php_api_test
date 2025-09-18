@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Andrew Forest",
+        "email": "af@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "John Snow",
+        "email": "js@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "ab",
+        "email": "aaa@bbb.com"
+    }
+]
