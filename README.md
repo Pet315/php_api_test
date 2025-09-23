@@ -13,4 +13,4 @@
 - web/config.php — токен для веб-інтерфейсу
 - web/index.php — головна сторінка + JS для роботи з API
 - data/data.json — початкові тестові дані
-- data/db.sqp - дамп для БД
+- data/db.sql - дамп для БД
