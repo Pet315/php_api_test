@@ -1,16 +1,16 @@
-# Веб-застосунок PHP + API
+# Web Application PHP + API
 
-## Запуск застосунку
+## Running the Application
 - php -S localhost:8000 -t web
-- в іншому вікні: php -S localhost:8001 -t api
-- у браузері відкрийте: http://localhost:8000
+- in another terminal: php -S localhost:8001 -t api
+- open in browser: http://localhost:8000
 
-## Файли
-- api/config.php — місце збереження токену та інформації для БД (для роботи з БД потрібно змінити USE_MYSQL на true і встановити відповідні значення для DB_USER, DB_PASS)
-- api/index.php — маршрутизатор для API
-- api/info.php — логіка для GET/POST
-- api/storage.php — для збереження на MySQL або JSON (стандартно вибрано на JSON)
-- web/config.php — токен для веб-інтерфейсу
-- web/index.php — головна сторінка + JS для роботи з API
-- data/data.json — початкові тестові дані
-- data/db.sql - дамп для БД
+## Files
+- api/config.php — place to save the token and information for the DB (to work with DB, you need to change USE_MYSQL to true and set the appropriate values ​​for DB_USER, DB_PASS)
+- api/index.php — router for the API
+- api/info.php — logic for GET/POST
+- api/storage.php — for saving to MySQL or JSON (JSON is selected by default)
+- web/config.php — token for the web interface
+- web/index.php — main page + JS for working with the API
+- data/data.json — initial test data
+- data/db.sql - dump for the DB
