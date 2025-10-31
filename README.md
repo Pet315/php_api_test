@@ -1,7 +1,7 @@
 # Web Application PHP + API
 
 ## Description
-Web app consisting of API (PHP) that returns data in JSON format and HTML/CSS (PHP) that accesses the API and displays data to the user
+Web app consisting of API (PHP) that returns data in JSON and HTML/CSS (PHP) that accesses the API and displays data to the user
 
 ## Running the Application
 - php -S localhost:8000 -t web
